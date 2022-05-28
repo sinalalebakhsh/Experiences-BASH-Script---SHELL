@@ -14,6 +14,10 @@ elif [ $NAME -eq 18 ]
 then
     echo "this number $NAME == 18"
 
+elif [ 18 -gt $NAME ]
+then
+    echo "this number $NAME < 18"
+
 
 fi
 
